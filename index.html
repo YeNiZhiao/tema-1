@@ -31,7 +31,7 @@
             }
         </style>
     </noscript>
-    <title>Tema 3</title>
+    <title>Tema 1</title>
 </head>
 
 <body class="bg-primary overflow-hidden">
@@ -145,10 +145,11 @@
     </section>
     <!-- waktu -->
     <section
-        class="waktu min-h-screen border-t-2 border-textPrimary bg-secondary flex flex-col items-start justify-center">
+        class="waktu min-h-screen border-t-2 border-textPrimary bg-secondary flex flex-col items-center justify-center">
+        <h1 class="text-2xl text-center  font-chilanka font-semibold text-textPrimary">Akad Nikah</h1>
         <div data-aos="zoom-in" class="flex w-11/12  items-center align-middle mx-auto my-3">
             <div class="w-4/12 text-center p-2 items-center">
-                <i class="block text-komponen w-full text-7xl fas fa-calendar-alt"></i>
+                <i class="block text-textPrimary w-full text-7xl fas fa-calendar-alt"></i>
             </div>
             <div class="mx-auto w-6/12 flex text-textPrimary justify-around items-center font-rancho">
                 <input type="text" data-aos="flip-down"
@@ -157,11 +158,8 @@
             </div>
         </div>
         <div data-aos="zoom-in" class="flex w-11/12  items-center align-middle mx-auto my-3">
-            <div class="w-6/12 text-komponen justify-around font-rancho text-center p-2 items-center">
-                <h2 class="p-2 text-2xl">08.00 s/d Selesai</h2>
-            </div>
-            <div class="mx-auto w-4/12 flex text-textPrimary justify-around items-center font-rancho">
-                <i class="block text-textPrimary w-full text-7xl far fa-clock"></i>
+            <div class="w-full text-textPrimary justify-center font-rancho text-center p-2 items-center">
+                <h2 class="p-2 text-2xl"><i class="fas fa-map-marker-alt"></i> Kediaman Mempelai Wanita</h2>
             </div>
         </div>
         <div data-aos="zoom-in-down"
@@ -282,7 +280,7 @@
         </div>
     </section>
     <!-- galeri -->
-    <section class="galeri min-h-screen bg-secondary flex flex-col justify-center items-center">
+    <section class="galeri min-h-screen bg-secondary p-2 flex flex-col justify-center items-center">
         <h1 class="my-2 text-center font-rancho text-4xl overflow-hidden text-textPrimary font-semibold">Galeri</h1>
         <div>
             <div class="my-2 container mx-auto items-center w-11/12">
@@ -334,11 +332,11 @@
         </div>
     </section>
     <!-- pesan dan kesan -->
-    <section class="pesan min-h-screen p-2 bg-secondary flex flex-col justify-center">
+    <section class="pesan min-h-screen p-2 bg-secondary border-t-2 border-textPrimary flex flex-col justify-center">
         <div class="w-11/12 mx-auto">
-            <h1 data-aos="zoom-out-up" class="text-center text-2xl text-textPrimary font-chilanka font-semibold mb-3">
+            <h1 data-aos="zoom-in" class="text-center text-2xl text-textPrimary font-chilanka font-semibold mb-3">
                 Pesan dan Kesan</h1>
-            <form data-aos="zoom-out-up" action="" class="my-3">
+            <form data-aos="zoom-in" action="" class="my-3">
                 <input type="text"
                     class="w-full p-2 rounded-md bg-primary my-2 font-chilanka text-lg outline-0 focus:shadow-lg duration-75 transition-all hover:shadow-lg active:shadow-lg"
                     placeholder="Nama anda">
@@ -356,7 +354,7 @@
             </form>
         </div>
     </section>
-    <section data-aos="zoom-out-up" class="h-screen overflow-y-scroll bg-textPrimary p-2">
+    <section data-aos="zoom-in" class="h-screen overflow-y-scroll bg-textPrimary p-2">
         <div class="w-11/12 mx-auto">
             <h1 class="my-4 text-center font-chilanka text-2xl text-primary font-semibold">Daftar Pesan</h1>
             <div class="bg-primary p-2 rounded-lg my-3">
@@ -409,6 +407,13 @@
         <h2 class="text-md"><i class="far fa-copyright"></i> 2022 Assalam Yuk Undang</h2>
         <h2 class="text-md">Build Theme with <i class="text-red-600 fas fa-heart"></i> By AYU</h2>
     </section>
+    <script type="text/javascript">
+        function copy_text() {
+            document.getElementById("pilih").select();
+            document.execCommand("copy");
+            Swal.fire('Tanggal Berhasil Disalin')
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>

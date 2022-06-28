@@ -28,12 +28,12 @@ $(document).ready(function () {
         $(".burger").toggleClass("fa-bars")
     })
     // save the date
-    $(".simpan").on("click", function () {
-        console.log($('.tanggal').html());
-        $('.tanggal').select();
-        navigator.clipboard.writeText($('.tanggal').html())
-        alert("Tanggal telah disalin")
-    })
+    // $(".simpan").on("click", function () {
+    //     console.log($('.tanggal').html());
+    //     $('.tanggal').select();
+    //     navigator.clipboard.writeText($('.tanggal').html())
+    //     alert("Tanggal telah disalin")
+    // })
     $('.page-scroll').on('click', function (e) {
         //ambil isi href
         var tujuan = $(this).attr('href')
