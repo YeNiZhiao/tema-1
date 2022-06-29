@@ -91,7 +91,7 @@
     <div class="nav fixed  transition-all duration-100 w-11/12 bg-primary z-20 p-2 rounded-lg shadow-xl">
         <nav class="w-full flex flex-col font-chilanka text-md">
             <a class="page-scroll my-1 bg-komponen items-center p-2 rounded-lg text-primary hover:bg-textPrimary duration-75 transition-all"
-                href=".pasangan"><i class="fas fa-ring"></i>Pasangan</a>
+                href=".pasangan"><i class="fas fa-ring"></i> Pasangan</a>
             <a class="page-scroll my-1 bg-komponen p-2 rounded-lg text-primary hover:bg-textPrimary duration-75 transition-all"
                 href=".waktu"><i class="far fa-calendar"></i> Waktu</a>
             <a class="page-scroll my-1 bg-komponen p-2 rounded-lg text-primary hover:bg-textPrimary duration-75 transition-all"
@@ -146,15 +146,16 @@
     <!-- waktu -->
     <section
         class="waktu min-h-screen border-t-2 border-textPrimary bg-secondary flex flex-col items-center justify-center">
+        <img src="img/elemen-6.png" class="w-8/12 scale-75 mx-auto" alt="">
         <h1 class="text-2xl text-center  font-chilanka font-semibold text-textPrimary">Akad Nikah</h1>
         <div data-aos="zoom-in" class="flex w-11/12  items-center align-middle mx-auto my-3">
-            <div class="w-4/12 text-center p-2 items-center">
-                <i class="block text-textPrimary w-full text-7xl fas fa-calendar-alt"></i>
-            </div>
-            <div class="mx-auto w-6/12 flex text-textPrimary justify-around items-center font-rancho">
-                <input type="text" data-aos="flip-down"
-                    class=" block bg-opacity-0 text-textPrimary outline-0 border-0 p-2 overflow-hidden text-center bg-none bg-transparent mx-auto my-2 font-comfortaa text-2xl"
-                    value="24 Januari 2026" id="pilih" readonly />
+            <div class="mx-auto w-full  flex text-textPrimary justify-center items-center font-rancho">
+                <h2 class="flex items-center">
+                    <i class="inline-block text-textPrimary text-2xl fas fa-calendar-alt"></i>
+                    <input type="text" data-aos="flip-down"
+                        class="inline-block bg-red-500 bg-opacity-0 text-textPrimary outline-0 border-0 p-2 overflow-hidden text-center bg-none bg-transparent mx-auto my-2 font-comfortaa text-2xl"
+                        value="24 Januari 2026" id="pilih" readonly />
+                </h2>
             </div>
         </div>
         <div data-aos="zoom-in" class="flex w-11/12  items-center align-middle mx-auto my-3">
@@ -187,7 +188,8 @@
             Waktu</button>
     </section>
     <!-- lokasi -->
-    <section class="lokasi min-h-screen bg-textPrimary flex flex-col justify-center items-center">
+    <section class="lokasi relative min-h-screen bg-textPrimary flex flex-col justify-center items-center">
+
         <div class="w-11/12 mx-auto">
             <div class="text-center overflow-hidden my-1">
 
